@@ -5,20 +5,7 @@ Java Online Program Projects
 + ✅[Homework#3](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233)
 
 <details><summary>Assigment & Solution</summary>
-
-[Ссылка со сноской][https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC]
-
 [Относительная ссылка на документ](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
-
-[Для ссылок со сноской можно использовать цифры][https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC]
-
-Или можно просто вставить ссылку в квадратные скобки [текст ссылки]
-
-Произвольный текст, после которого можно указать сами ссылки. Произвольный текст, после которого можно указать сами ссылки. Произвольный текст, после которого можно указать сами ссылки.
-
-[произвольный регистронезависимый текст]: https://www.mozilla.org
-[1]: http://slashdot.org
-[текст ссылки]: http://www.reddit.com
  Assigment:
     * oihuhgguyfuf
  Solution:
