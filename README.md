@@ -30,28 +30,28 @@ Java Online Program Projects
    * `Assigment:` 
       * Write the required data input structure from the command line and pass the input result to the appropriate entity. Checkout according to JCC, write JavaDOC;
       * This structure should check the correctness of the data entry (saving the correctly entered data) and, if all data is fully valid, transfers them to the appropriate class in the model.
-      * Create Entity Entry in Notebook, which consists of:
-        * Subscriber's surname.
-        * Subscriber's name.
-        * Subscriber's patronymic.
-        * Generate from the entered data: Surname + Space + First letter of the Name + period.
-        * Nickname.
-        * A comment.
-        * The group to which the subscriber is entered (Enum with group names).
-        * Phone house.
-        * Phone mob.
-        * Phone mob. 2 (may not be available).
-        * E-mail.
-        * Skype.
-        * An address consisting of:
+      Create Entity Entry in Notebook, which consists of:
+        1. Subscriber's surname.
+        2. Subscriber's name.
+        3. Subscriber's patronymic.
+        4. Generate from the entered data: Surname + Space + First letter of the Name + period.
+        5. Nickname.
+        6. A comment.
+        7. The group to which the subscriber is entered (Enum with group names).
+        8. Phone house.
+        9. Phone mob.
+        10. Phone mob. 2 (may not be available).
+        11. E-mail.
+        12. Skype.
+        13. An address consisting of:
           * Index.
           * City of residence.
           * Street.
           * House number.
           * Apartment number.
-        * The string of the full address formed from the data in clause 13.
-        * Notebook entry dates.
-        * Dates of the last modification of the entry.
+        14. The string of the full address formed from the data in clause 13.
+        15. Notebook entry dates.
+        16. Dates of the last modification of the entry.
    * `Solutions:` 
       * [AlgorythmsAssigmentMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/AlgorythmsAssigmentMVC)
       * [GuessingGameScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/GuessingGameScannerMVC)
