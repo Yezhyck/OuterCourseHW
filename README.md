@@ -44,11 +44,11 @@ Java Online Program Projects
         11. E-mail.
         12. Skype.
         13. An address consisting of:
-          * Index.
-          * City of residence.
-          * Street.
-          * House number.
-          * Apartment number.
+          1. Index.
+          2. City of residence.
+          3. Street.
+          4. House number.
+          5. Apartment number.
         14. The string of the full address formed from the data in clause 13.
         15. Notebook entry dates.
         16. Dates of the last modification of the entry.
