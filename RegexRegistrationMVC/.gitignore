@@ -1,8 +1,8 @@
 # Default ignored files
 /shelf/
-.idea
-.settings
-.target
+.idea/
+.settings/
+.target/
 .classpath
 .factorypath
 .project
