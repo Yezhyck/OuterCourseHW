@@ -8,9 +8,9 @@ Java Online Program Projects
 
 [Ссылка со сноской][https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC]
 
-[Относительная ссылка на документ](../blob/master/LICENSE)
+[Относительная ссылка на документ](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
 
-[Для ссылок со сноской можно использовать цифры][1]
+[Для ссылок со сноской можно использовать цифры][https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC]
 
 Или можно просто вставить ссылку в квадратные скобки [текст ссылки]
 
