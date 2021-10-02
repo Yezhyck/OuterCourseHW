@@ -1,11 +1,6 @@
 # Default ignored files
 /shelf/
-.idea/
-.settings/
-.target/
-.classpath
-.factorypath
-.project
+/.idea/workspace.xml
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
