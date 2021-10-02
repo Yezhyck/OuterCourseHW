@@ -1,8 +1,10 @@
 Java Online Program Projects
 =====================================================================================================
 <details><summary>[Homework#1]:(https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)</summary>
- + Assigment
- + Assigment
++ Solution
+ 
+ 
+ 
  
   * Solution:
     [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
