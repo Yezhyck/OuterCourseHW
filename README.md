@@ -6,7 +6,7 @@ Java Online Program Projects
 
 <details><summary>Assigment & Solution</summary>
 
-[Ссылка со сноской][Произвольный регистронезависимый текст]
+[Ссылка со сноской][https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC]
 
 [Относительная ссылка на документ](../blob/master/LICENSE)
 
