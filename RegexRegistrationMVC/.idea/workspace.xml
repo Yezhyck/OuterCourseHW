@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea4a311-5fe4-4bea-bb33-b4caaba7f999" name="Changes" comment="">
+    <list default="true" id="9ea4a311-5fe4-4bea-bb33-b4caaba7f999" name="Changes" comment="Adding of Group.UNKNOWN.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Regexes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Regexes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/NoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/NoteBookRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/NoteBookRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/TextConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/TextConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BBMAP$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BBMAP$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BBMAP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$FullAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$FullDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$FullName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/PropertiesTextConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/View.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/JavaTasks-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OuterCourseHW-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -95,8 +116,16 @@
       <workItem from="1633132944638" duration="4137000" />
       <workItem from="1633140791670" duration="801000" />
       <workItem from="1633141771729" duration="25000" />
-      <workItem from="1633174524060" duration="1201000" />
+      <workItem from="1633174524060" duration="22089000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding of Group.UNKNOWN.">
+      <created>1633175776148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633175776148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +142,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding of Group.UNKNOWN." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding of Group.UNKNOWN." />
   </component>
 </project>

@@ -3,7 +3,7 @@ package view;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class View implements PropertiesTextConstants {
+public class View implements TextConstants {
     public static String MESSAGE_BUNDLE_NAME = "message";
     public static ResourceBundle resourceBundle;
 
@@ -11,11 +11,16 @@ public class View implements PropertiesTextConstants {
         System.out.print(message);
     }
 
-    public void printlnMessage(String message) { System.out.println(message); }
+    public void printlnMessage(String message) {
+        System.out.println(message);
+    }
 
     public String concatenateStringSpace(String... message) {
         StringBuilder stringBuilder = new StringBuilder();
-        for (String s : message) stringBuilder.append(s).append(" ");
+        for (int i = 0; i < message.length; i++) {
+            if (message.length != i + 1) stringBuilder.append(message[i]).append(" ");
+            else stringBuilder.append(message[i]);
+        }
         return stringBuilder.toString();
     }
 
@@ -27,22 +32,22 @@ public class View implements PropertiesTextConstants {
 
     public void printStringInput(String message, String format) {
         printMessage(concatenateStringSpace(
-                getString(INPUT_ENTER),
+                getString(ENTER),
                 getString(message),
                 getString(format)) +
                 LINE_BREAK +
-                INPUT_ARCHER_POINTER);
+                ARCHER_POINTER);
     }
 
     public void printWrongStringInput(String message, String format) {
         printMessage(concatenateStringSpace(
-                getString(INPUT_WRONG) +
-                LINE_BREAK +
-                getString(INPUT_ENTER),
+                getString(WRONG) +
+                        LINE_BREAK +
+                        getString(ENTER),
                 getString(message),
                 getString(format)) +
                 LINE_BREAK +
-                INPUT_ARCHER_POINTER);
+                ARCHER_POINTER);
     }
 
     public void printConcatenatedStringSpace(String... args) {

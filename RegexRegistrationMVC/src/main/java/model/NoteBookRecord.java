@@ -2,6 +2,7 @@ package model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.time.DayOfWeek;
@@ -11,7 +12,7 @@ import java.time.Month;
 
 @Data
 @AllArgsConstructor
-public class Model {
+public class NoteBookRecord {
     private String firstName;
     private String secondName;
     private String middleName;
@@ -32,44 +33,20 @@ public class Model {
     private FullAddress fullAddress;
     private FullDate fullDateOfCreation;
     private FullDate fullDateOfEditing;
+    private FullDate fullDateOfAdding;
 
-    public Model() {
+    public NoteBookRecord() {
         this.fullName = new FullName();
         this.fullAddress = new FullAddress();
         this.fullDateOfCreation = new FullDate(LocalDate.now(), LocalDateTime.now());
     }
 
-    private void setInputGroup(String inputGroup) {
-        switch (Group.valueOf(inputGroup)) {
-            case ADMIN -> group = Group.ADMIN;
-            case MANAGER -> group = Group.MANAGER;
-            case USER -> group = Group.USER;
-            default -> group = Group.UNKNOWN;
-        }
-    }
-
-    public boolean hasFullName() {
-        return fullName.getFirstName() != null &&
-                fullName.getSecondName() != null &&
-                fullName.getMiddleName() != null;
-    }
-
     public void createFullName() {
-        if (hasFullName())
-            fullName = new FullName(firstName, secondName, middleName);
-    }
-
-    public boolean hasFullAddress() {
-        return fullAddress.getIndex() != null &&
-                fullAddress.getCity() != null &&
-                fullAddress.getStreet() != null &&
-                fullAddress.getHomeNumber() != null &&
-                fullAddress.getApartmentNumber() != null;
+        fullName = new FullName(firstName, secondName, middleName);
     }
 
     public void createFullAddress() {
-        if (hasFullAddress())
-            fullAddress = new FullAddress(index, city, street, homeNumber, apartmentNumber);
+        fullAddress = new FullAddress(index, city, street, homeNumber, apartmentNumber);
     }
 
     public boolean isEdited() {
@@ -86,8 +63,8 @@ public class Model {
 
         @Override
         public String toString() {
-            return firstName + " "
-                    + secondName + " "
+            return secondName + " "
+                    + firstName + " "
                     + middleName;
         }
     }
@@ -96,68 +73,96 @@ public class Model {
         this.fullDateOfEditing = new FullDate(LocalDate.now(), LocalDateTime.now());
     }
 
+    public void updateDateOfAdding() {
+        this.fullDateOfAdding = new FullDate(LocalDate.now(), LocalDateTime.now());
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+        createFullName();
+        updateDateOfEditing();
     }
 
     public void setSecondName(String secondName) {
         this.secondName = secondName;
+        createFullName();
+        updateDateOfEditing();
     }
 
     public void setMiddleName(String middleName) {
         this.middleName = middleName;
+        createFullName();
+        updateDateOfEditing();
     }
 
     public void setNickname(String nickname) {
         this.nickname = nickname;
+        updateDateOfEditing();
     }
 
     public void setComment(String comment) {
         this.comment = comment;
+        updateDateOfEditing();
     }
 
     public void setGroup(Group group) {
         this.group = group;
+        updateDateOfEditing();
     }
 
     public void setHomeTelephoneNumber(String homeTelephoneNumber) {
         this.homeTelephoneNumber = homeTelephoneNumber;
+        updateDateOfEditing();
     }
 
     public void setMobileTelephoneNumber(String mobileTelephoneNumber) {
         this.mobileTelephoneNumber = mobileTelephoneNumber;
+        updateDateOfEditing();
     }
 
     public void setSecondMobileTelephoneNumber(String secondMobileTelephoneNumber) {
         this.secondMobileTelephoneNumber = secondMobileTelephoneNumber;
+        updateDateOfEditing();
     }
 
     public void setEmail(String email) {
         this.email = email;
+        updateDateOfEditing();
     }
 
     public void setSkype(String skype) {
         this.skype = skype;
+        updateDateOfEditing();
     }
 
     public void setIndex(String index) {
         this.index = index;
+        createFullAddress();
+        updateDateOfEditing();
     }
 
     public void setCity(String city) {
         this.city = city;
+        createFullAddress();
+        updateDateOfEditing();
     }
 
     public void setStreet(String street) {
         this.street = street;
+        createFullAddress();
+        updateDateOfEditing();
     }
 
     public void setHomeNumber(String homeNumber) {
         this.homeNumber = homeNumber;
+        createFullAddress();
+        updateDateOfEditing();
     }
 
     public void setApartmentNumber(String apartmentNumber) {
         this.apartmentNumber = apartmentNumber;
+        createFullAddress();
+        updateDateOfEditing();
     }
 
     @Data
@@ -181,6 +186,7 @@ public class Model {
     }
 
     @Data
+    @Getter
     @NoArgsConstructor
     private static class FullDate {
         private LocalDate localDate;
