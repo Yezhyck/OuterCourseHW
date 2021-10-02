@@ -30,7 +30,7 @@ Java Online Program Projects
    * `Assigment:` 
       * Write the required data input structure from the command line and pass the input result to the appropriate entity. Checkout according to JCC, write JavaDOC;
       * This structure should check the correctness of the data entry (saving the correctly entered data) and, if all data is fully valid, transfers them to the appropriate class in the model.
-      Create Entity Entry in Notebook, which consists of:
+      * Create Entity Entry in Notebook, which consists of:
         1. Subscriber's surname.
         2. Subscriber's name.
         3. Subscriber's patronymic.
