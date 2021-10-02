@@ -5,7 +5,6 @@ Java Online Program Projects
 + ✅[Homework#3](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233)
 
 <details><summary>Assigment & Solution</summary>
-[Обычная ссылка с title](https://www.google.com "Сайт Google")
 
 [Ссылка со сноской][Произвольный регистронезависимый текст]
 
