@@ -99,6 +99,7 @@ public class Model {
             case ADMIN -> group = Group.ADMIN;
             case MANAGER -> group = Group.MANAGER;
             case USER -> group = Group.USER;
+            default -> group = Group.UNKNOWN;
         }
     }
 
@@ -127,20 +128,12 @@ public class Model {
         apartmentNumber != null;
     }
 
-    private void createFullName() {
-        fullName = new FullName(firstName, secondName, middleName);
-    }
-
     public boolean hasFullAddress() {
         return fullAddress.getIndex() != null &&
                fullAddress.getCity() != null &&
                fullAddress.getStreet() != null &&
                fullAddress.getHomeNumber() != null &&
                fullAddress.getApartmentNumber() != null;
-    }
-
-    private void createFullAddress() {
-        fullAddress = new FullAddress(index, city, street, homeNumber, apartmentNumber);
     }
 
     public boolean isEdited() {
