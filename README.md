@@ -7,7 +7,6 @@ Java Online Program Projects
       * A sentence is assembled from these words and displayed on the screen.
       * The MVC pattern must be applied.
    * `Solution:` [Homework#1](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
-  
-  </details>
+</details>
 + ✅[Homework#2](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%232)
 + ✅[Homework#3](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233)
