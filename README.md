@@ -1,7 +1,7 @@
 Java Online Program Projects
 =====================================================================================================
 + ✅[Homework#1](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
-  <details><summary>Homework#1 Info</summary>
+  <details><summary>Info</summary>
  
    * `Assigment:` 
       * Write a program that receives from the command line first the word “Hello”, then the word “world!”. Ignore other inputs with an appropriate comment on the command line.
