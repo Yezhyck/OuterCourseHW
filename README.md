@@ -48,8 +48,8 @@ Java Online Program Projects
             * City of residence.
             * Street.
             * House number.
-         * Apartment number.
-         * The string of the full address formed from the data in clause 13.
+            * Apartment number.
+         * The string of the full address formed from the data in the previous clause.
          * Notebook entry dates.
          * Dates of the last modification of the entry.
    * `Solutions:` 
