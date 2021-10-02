@@ -23,3 +23,11 @@ Java Online Program Projects
     [RegexRegistrationMVCV1](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/RegexRegistrationMVCV1)
     [RegexRegistrationMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/RegexRegistrationMVC)
 </details>
+
+<details><summary>A dropdown list for markdown</summary>
+
+   1. First item must be preceeded with an empty line.
+   1. Markdown renders **perfectly**.
+   1. Extra item.
+
+</details>
