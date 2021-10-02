@@ -1,0 +1,20 @@
+package model;
+
+public enum State {
+    SECOND_NAME,
+    FIRST_NAME,
+    MIDDLE_NAME,
+    NICKNAME,
+    COMMENT,
+    GROUP,
+    HOME_TELEPHONE_NUMBER,
+    MOBILE_TELEPHONE_NUMBER,
+    SECOND_MOBILE_TELEPHONE_NUMBER,
+    EMAIL,
+    SKYPE,
+    INDEX,
+    CITY,
+    STREET,
+    HOME_NUMBER,
+    APARTMENT_NUMBER
+}
