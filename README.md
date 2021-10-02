@@ -23,9 +23,9 @@ Java Online Program Projects
     [RegexRegistrationMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/RegexRegistrationMVC)
 </details>
 
-<details><summary>A dropdown list for markdown</summary>
+<details><summary>Insfo</summary>
 
-   * [AlgorythmsAssigmentMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/AlgorythmsAssigmentMVC)
+   * [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
  
    1. First item must be preceeded with an empty line.
    1. Markdown renders **perfectly**.
