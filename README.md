@@ -1,8 +1,10 @@
 Java Online Program Projects
 =====================================================================================================
 <details><summary>[Homework#1]:(https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)</summary>
-  * Assigment:`
-  * `Solution`:
+ + Assigment
+ + Assigment
+ 
+  * Solution:
     [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
 </details>
 <details><summary>[Homework#2](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%232)</summary>
@@ -17,11 +19,3 @@ Java Online Program Projects
     [RegexRegistrationMVCV1](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/RegexRegistrationMVCV1)
     [RegexRegistrationMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/RegexRegistrationMVC)
 </details>
-
-+ Solution
-+ Solution
-+ Solution
-+ Solution
-+ Solution
-+ Solution
-+ 
