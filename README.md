@@ -25,7 +25,7 @@ Java Online Program Projects
 
 <details><summary>Insfo</summary>
  
-   Solution:
+Solution:
    * [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
  
    1. First item must be preceeded with an empty line.
