@@ -8,7 +8,7 @@ Java Online Program Projects
  Assigment:
  * oihuhgguyfuf
  Solution:
-    * [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
+    * [HelloWorldScannerMVC]: https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC
 </details>
 <details><summary>[Homework#2](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%232)</summary>
   * Assigment:
