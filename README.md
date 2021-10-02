@@ -25,8 +25,9 @@ Java Online Program Projects
 
 <details><summary>Insfo</summary>
  
-   * Assigment
-   * Solution
+   * Assigment:
+   * Solution:
+      [Homework#1](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)     
  
    1. First item must be preceeded with an empty line.
    1. Markdown renders **perfectly**.
