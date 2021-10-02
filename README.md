@@ -44,16 +44,16 @@ Java Online Program Projects
          * E-mail.
          * Skype.
          * An address consisting of:
-          * Index.
-          * City of residence.
-          * Street.
-          * House number.
+            * Index.
+            * City of residence.
+            * Street.
+            * House number.
          * Apartment number.
          * The string of the full address formed from the data in clause 13.
          * Notebook entry dates.
          * Dates of the last modification of the entry.
    * `Solutions:` 
-      * [AlgorythmsAssigmentMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/AlgorythmsAssigmentMVC)
-      * [GuessingGameScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/GuessingGameScannerMVC)
+      * [RegexRegistrationMVCV1](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/RegexRegistrationMVCV1)
+      * [RegexRegistrationMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233/RegexRegistrationMVC)
   
    </details>
