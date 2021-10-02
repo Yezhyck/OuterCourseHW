@@ -4,10 +4,11 @@ Java Online Program Projects
 + ✅[Homework#2](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%232)
 + ✅[Homework#3](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%233)
 
-<details><summary>Assigmant & Solution</summary>
- 1. Assigment:
- 2. Solution:
-    [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
+<details><summary>Assigment & Solution</summary>
+ Assigment:
+ * oihuhgguyfuf
+ Solution:
+    * [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
 </details>
 <details><summary>[Homework#2](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%232)</summary>
   * Assigment:
