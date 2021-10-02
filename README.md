@@ -24,9 +24,8 @@ Java Online Program Projects
 </details>
 
 <details><summary>Insfo</summary>
- 
-   Solution:
-     * [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
+ Solution:
+   * [HelloWorldScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/HelloWorldScannerMVC)
  
    1. First item must be preceeded with an empty line.
    1. Markdown renders **perfectly**.
