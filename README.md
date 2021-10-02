@@ -32,26 +32,26 @@ Java Online Program Projects
       * This structure should check the correctness of the data entry (saving the correctly entered data) and, if all data is fully valid, transfers them to the appropriate class in the model.
       * Create Entity Entry in Notebook, which consists of:
       1. Subscriber's surname.
-      2. Subscriber's name.
-      3. Subscriber's patronymic.
-      4. Generate from the entered data: Surname + Space + First letter of the Name + period.
-      5. Nickname.
-      6. A comment.
-      7. The group to which the subscriber is entered (Enum with group names).
-      8. Phone house.
-      9. Phone mob.
-      10. Phone mob. 2 (may not be available).
-      11. E-mail.
-      12. Skype.
-      13. An address consisting of:
+      1. Subscriber's name.
+      1. Subscriber's patronymic.
+      1. Generate from the entered data: Surname + Space + First letter of the Name + period.
+      1. Nickname.
+      1. A comment.
+      1. The group to which the subscriber is entered (Enum with group names).
+      1. Phone house.
+      1. Phone mob.
+      1. Phone mob. 2 (may not be available).
+      1. E-mail.
+      1. Skype.
+      1. An address consisting of:
         * Index.
         * City of residence.
         * Street.
         * House number.
         * Apartment number.
-      14. The string of the full address formed from the data in clause 13.
-      15. Notebook entry dates.
-      16. Dates of the last modification of the entry.
+      1. The string of the full address formed from the data in clause 13.
+      1. Notebook entry dates.
+      1. Dates of the last modification of the entry.
    * `Solutions:` 
       * [AlgorythmsAssigmentMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/AlgorythmsAssigmentMVC)
       * [GuessingGameScannerMVC](https://github.com/Yezhyck/OuterCourseHW/tree/master/Homework%231/GuessingGameScannerMVC)
