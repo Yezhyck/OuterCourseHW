@@ -14,15 +14,14 @@ public class Controller {
     private final NoteBook noteBook;
     private final NoteBookRecord noteBookRecord;
 
-    public Controller(NoteBookRecord noteBookRecord, View view) {
+    public Controller(NoteBookRecord noteBookRecord, NoteBook noteBook, View view) {
         this.view = view;
-        this.noteBook = new NoteBook();
-        this.noteBookRecord = noteBookRecord;
         this.scanner = new Scanner(System.in);
+        this.noteBook = noteBook;
+        this.noteBookRecord = noteBookRecord;
     }
 
     public void inputNote() {
-        Scanner scanner = new Scanner(System.in);
         configureLanguage();
         fillModel();
         printModel();
@@ -48,10 +47,12 @@ public class Controller {
                     if (!(Integer.parseInt(ans) < 16)) break;
                 }
                 switch (Integer.parseInt(ans)) {
-                    case 0 -> ssn(); case 1 -> sfn(); case 2 -> smn(); case 3 -> snn();
-                    case 4 -> scmm(); case 5 -> sg(); case 6 -> shtn(); case 7 -> smtn();
-                    case 8 -> ssmtn(); case 9 -> se(); case 10 -> ss(); case 11 -> si();
-                    case 12 -> sct(); case 13 -> sstr(); case 14 -> shm(); case 15 -> ssam();
+                    case 0 -> ssn(); case 1 -> sfn(); case 2 -> smn();
+                    case 3 -> snn(); case 4 -> scmm(); case 5 -> sg();
+                    case 6 -> shtn(); case 7 -> smtn(); case 8 -> ssmtn();
+                    case 9 -> se(); case 10 -> ss(); case 11 -> si();
+                    case 12 -> sct(); case 13 -> sstr(); case 14 -> shm();
+                    case 15 -> ssam();
                 }
                 view.printMessage(TextConstants.LINE_BREAK); printModel();
                 view.printConcatenatedString(view.getString(TextConstants.QUESTION),
@@ -72,8 +73,8 @@ public class Controller {
         ssn(); sfn(); smn(); noteBookRecord.createFullName();
         view.printConcatenatedStringSpace(view.getString(TextConstants.FULL_NAME),
                 TextConstants.DD, String.valueOf(noteBookRecord.getFullName()));
-        snn(); scmm(); sg(); shtn(); smtn(); ssmtn(); se(); ss(); si();
-        sct(); sstr(); shm(); ssam();noteBookRecord.createFullAddress();
+        snn(); scmm(); sg(); shtn(); smtn(); ssmtn(); se(); ss();
+        si(); sct(); sstr(); shm(); ssam(); noteBookRecord.createFullAddress();
         view.printConcatenatedStringSpace(view.getString(TextConstants.FULL_ADDRESS), TextConstants.DD,
                 String.valueOf(noteBookRecord.getFullAddress()));
         view.printConcatenatedString(TextConstants.LINE_BREAK,
@@ -180,7 +181,7 @@ public class Controller {
     public String cleanString(String string) {
         StringBuilder sb = new StringBuilder(view.getString(string));
         sb.setCharAt(0, Character.toUpperCase(sb.charAt(0)));
-        sb.reverse().replace(0, 10, "").reverse();
+        sb.reverse().replace(0, 10, TextConstants.NON).reverse();
         return sb.toString();
     }
 }
