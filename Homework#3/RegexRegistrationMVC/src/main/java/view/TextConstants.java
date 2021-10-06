@@ -46,4 +46,5 @@ public interface TextConstants {
     String EN = "en";
     String UA = "ua";
     String SPACE = " ";
+    String NONE = "";
 }
