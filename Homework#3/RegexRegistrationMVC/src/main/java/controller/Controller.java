@@ -182,7 +182,7 @@ public class Controller {
     public String cleanString(String string) {
         StringBuilder sb = new StringBuilder(view.getString(string));
         sb.setCharAt(0, Character.toUpperCase(sb.charAt(0)));
-        sb.reverse().replace(0, 10, TextConstants.NON).reverse();
+        sb.reverse().replace(0, 10, TextConstants.NONE).reverse();
         return sb.toString();
     }
 }
