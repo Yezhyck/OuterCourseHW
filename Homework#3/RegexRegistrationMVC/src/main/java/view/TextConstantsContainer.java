@@ -1,6 +1,6 @@
 package view;
 
-public interface TextConstants {
+public interface TextConstantsContainer {
     String ENTER = "input.enter";
     String FULL_NAME = "input.full.name";
     String FULL_ADDRESS = "input.full.address";

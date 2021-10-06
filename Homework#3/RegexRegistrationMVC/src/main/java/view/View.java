@@ -3,7 +3,7 @@ package view;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class View implements TextConstants {
+public class View implements TextConstantsContainer {
     public static String MESSAGE_BUNDLE_NAME = "message";
     public static ResourceBundle resourceBundle;
 
