@@ -4,31 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ea4a311-5fe4-4bea-bb33-b4caaba7f999" name="Changes" comment="Adding of Group.UNKNOWN.">
+    <list default="true" id="9ea4a311-5fe4-4bea-bb33-b4caaba7f999" name="Changes" comment="Refactor new incorrect output.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Regexes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Regexes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/NoteBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/NoteBookRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/NoteBookRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/TextConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/TextConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/message.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BBMAP$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BBMAP$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BBMAP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$FullAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$FullDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$FullName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PropertiesTextConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Regexes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/NoteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/NoteBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/NoteBookRecord$FullAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/NoteBookRecord$FullAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/NoteBookRecord$FullDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/NoteBookRecord$FullDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/NoteBookRecord$FullName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/NoteBookRecord$FullName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/NoteBookRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/NoteBookRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/TextConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/TextConstants.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -65,11 +51,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/OuterCourseHW-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,6 +103,10 @@
       <workItem from="1633140791670" duration="801000" />
       <workItem from="1633141771729" duration="25000" />
       <workItem from="1633174524060" duration="22089000" />
+      <workItem from="1633436064452" duration="191000" />
+      <workItem from="1633436284527" duration="4415000" />
+      <workItem from="1633503361025" duration="473000" />
+      <workItem from="1633504061885" duration="4153000" />
     </task>
     <task id="LOCAL-00001" summary="Adding of Group.UNKNOWN.">
       <created>1633175776148</created>
@@ -125,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633175776148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removing NoteBook and NoteBookRecord objects.">
+      <created>1633437684571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633437684571</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor new incorrect output.">
+      <created>1633507972726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633507972726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +148,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Adding of Group.UNKNOWN." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding of Group.UNKNOWN." />
+    <MESSAGE value="Removing NoteBook and NoteBookRecord objects." />
+    <MESSAGE value="Refactor new incorrect output." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor new incorrect output." />
   </component>
 </project>
