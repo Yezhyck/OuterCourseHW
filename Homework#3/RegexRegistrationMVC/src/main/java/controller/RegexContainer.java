@@ -1,6 +1,6 @@
 package controller;
 
-public interface Regexes {
+public interface RegexContainer {
     String NAME_SURNAME_MIDDLE_NAME = "name.regexp";
     String COMMENT = "comment.regexp";
     String GROUP = "group.regexp";

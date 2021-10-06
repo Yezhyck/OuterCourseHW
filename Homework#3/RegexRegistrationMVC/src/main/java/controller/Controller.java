@@ -39,7 +39,7 @@ public class Controller {
                 printProposition();
                 view.printMessage(TextConstants.ARCHER_POINTER);
                 String ans = scanner.nextLine().trim();
-                while (!ans.matches(view.getString(Regexes.PROPOSITION))) {
+                while (!ans.matches(view.getString(RegexContainer.PROPOSITION))) {
                     view.printlnMessage(view.getString(TextConstants.WRONG));
                     view.printMessage(TextConstants.ARCHER_POINTER);
                     ans = scanner.nextLine().trim();
@@ -82,37 +82,37 @@ public class Controller {
                 view.getString(TextConstants.GREETING), TextConstants.LINE_BREAK);
     }
 
-    public void ssn(NoteBookRecord noteBookRecord) { noteBookRecord.setSecondName(inputStringRegexCheck(Regexes.NAME_SURNAME_MIDDLE_NAME, TextConstants.SECOND_NAME)); }
+    public void ssn(NoteBookRecord noteBookRecord) { noteBookRecord.setSecondName(inputStringRegexCheck(RegexContainer.NAME_SURNAME_MIDDLE_NAME, TextConstants.SECOND_NAME)); }
 
-    public void sfn(NoteBookRecord noteBookRecord) { noteBookRecord.setFirstName(inputStringRegexCheck(Regexes.NAME_SURNAME_MIDDLE_NAME, TextConstants.FIRST_NAME)); }
+    public void sfn(NoteBookRecord noteBookRecord) { noteBookRecord.setFirstName(inputStringRegexCheck(RegexContainer.NAME_SURNAME_MIDDLE_NAME, TextConstants.FIRST_NAME)); }
 
-    public void smn(NoteBookRecord noteBookRecord) { noteBookRecord.setMiddleName(inputStringRegexCheck(Regexes.NAME_SURNAME_MIDDLE_NAME, TextConstants.MIDDLE_NAME)); }
+    public void smn(NoteBookRecord noteBookRecord) { noteBookRecord.setMiddleName(inputStringRegexCheck(RegexContainer.NAME_SURNAME_MIDDLE_NAME, TextConstants.MIDDLE_NAME)); }
 
-    public void snn(NoteBookRecord noteBookRecord) { noteBookRecord.setNickname(inputStringRegexCheck(Regexes.SKYPE, TextConstants.NICKNAME)); }
+    public void snn(NoteBookRecord noteBookRecord) { noteBookRecord.setNickname(inputStringRegexCheck(RegexContainer.SKYPE, TextConstants.NICKNAME)); }
 
-    public void scmm(NoteBookRecord noteBookRecord) { noteBookRecord.setComment(inputStringRegexCheck(Regexes.COMMENT, TextConstants.COMMENT)); }
+    public void scmm(NoteBookRecord noteBookRecord) { noteBookRecord.setComment(inputStringRegexCheck(RegexContainer.COMMENT, TextConstants.COMMENT)); }
 
-    public void sg(NoteBookRecord noteBookRecord) { noteBookRecord.setGroup(Group.valueOf(inputStringRegexCheck(Regexes.GROUP, TextConstants.GROUP))); }
+    public void sg(NoteBookRecord noteBookRecord) { noteBookRecord.setGroup(Group.valueOf(inputStringRegexCheck(RegexContainer.GROUP, TextConstants.GROUP))); }
 
-    public void shtn(NoteBookRecord noteBookRecord) { noteBookRecord.setHomeTelephoneNumber(inputStringRegexCheck(Regexes.HOME_TELEPHONE_NUMBER, TextConstants.HOME_TELEPHONE_NUMBER)); }
+    public void shtn(NoteBookRecord noteBookRecord) { noteBookRecord.setHomeTelephoneNumber(inputStringRegexCheck(RegexContainer.HOME_TELEPHONE_NUMBER, TextConstants.HOME_TELEPHONE_NUMBER)); }
 
-    public void smtn(NoteBookRecord noteBookRecord) { noteBookRecord.setMobileTelephoneNumber(inputStringRegexCheck(Regexes.TELEPHONE_NUMBER, TextConstants.MOBILE_TELEPHONE_NUMBER)); }
+    public void smtn(NoteBookRecord noteBookRecord) { noteBookRecord.setMobileTelephoneNumber(inputStringRegexCheck(RegexContainer.TELEPHONE_NUMBER, TextConstants.MOBILE_TELEPHONE_NUMBER)); }
 
-    public void ssmtn(NoteBookRecord noteBookRecord) { noteBookRecord.setSecondMobileTelephoneNumber(inputStringRegexCheck(Regexes.TELEPHONE_NUMBER, TextConstants.SECOND_MOBILE_TELEPHONE_NUMBER)); }
+    public void ssmtn(NoteBookRecord noteBookRecord) { noteBookRecord.setSecondMobileTelephoneNumber(inputStringRegexCheck(RegexContainer.TELEPHONE_NUMBER, TextConstants.SECOND_MOBILE_TELEPHONE_NUMBER)); }
 
-    public void se(NoteBookRecord noteBookRecord) { noteBookRecord.setEmail(inputStringRegexCheck(Regexes.EMAIL, TextConstants.EMAIL)); }
+    public void se(NoteBookRecord noteBookRecord) { noteBookRecord.setEmail(inputStringRegexCheck(RegexContainer.EMAIL, TextConstants.EMAIL)); }
 
-    public void ss(NoteBookRecord noteBookRecord) { noteBookRecord.setSkype(inputStringRegexCheck(Regexes.SKYPE, TextConstants.SKYPE)); }
+    public void ss(NoteBookRecord noteBookRecord) { noteBookRecord.setSkype(inputStringRegexCheck(RegexContainer.SKYPE, TextConstants.SKYPE)); }
 
-    public void si(NoteBookRecord noteBookRecord) { noteBookRecord.setIndex(inputStringRegexCheck(Regexes.INDEX, TextConstants.INDEX)); }
+    public void si(NoteBookRecord noteBookRecord) { noteBookRecord.setIndex(inputStringRegexCheck(RegexContainer.INDEX, TextConstants.INDEX)); }
 
-    public void sct(NoteBookRecord noteBookRecord) { noteBookRecord.setCity(inputStringRegexCheck(Regexes.CITY, TextConstants.CITY)); }
+    public void sct(NoteBookRecord noteBookRecord) { noteBookRecord.setCity(inputStringRegexCheck(RegexContainer.CITY, TextConstants.CITY)); }
 
-    public void sstr(NoteBookRecord noteBookRecord) { noteBookRecord.setStreet(inputStringRegexCheck(Regexes.CITY, TextConstants.STREET)); }
+    public void sstr(NoteBookRecord noteBookRecord) { noteBookRecord.setStreet(inputStringRegexCheck(RegexContainer.CITY, TextConstants.STREET)); }
 
-    public void shm(NoteBookRecord noteBookRecord) { noteBookRecord.setHomeNumber(inputStringRegexCheck(Regexes.STREET_APARTMENT_NUMBER, TextConstants.HOME_NUMBER)); }
+    public void shm(NoteBookRecord noteBookRecord) { noteBookRecord.setHomeNumber(inputStringRegexCheck(RegexContainer.STREET_APARTMENT_NUMBER, TextConstants.HOME_NUMBER)); }
 
-    public void ssam(NoteBookRecord noteBookRecord) { noteBookRecord.setApartmentNumber(inputStringRegexCheck(Regexes.STREET_APARTMENT_NUMBER, TextConstants.APARTMENT_NUMBER)); }
+    public void ssam(NoteBookRecord noteBookRecord) { noteBookRecord.setApartmentNumber(inputStringRegexCheck(RegexContainer.STREET_APARTMENT_NUMBER, TextConstants.APARTMENT_NUMBER)); }
 
     public String inputStringRegexCheck(String regex, String message) {
         view.printStringInput(message, regex);
