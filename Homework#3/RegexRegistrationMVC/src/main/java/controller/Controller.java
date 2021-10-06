@@ -58,9 +58,10 @@ public class Controller {
                         TextConstants.LINE_BREAK, view.getString(TextConstants.CHOICE));
                 view.printMessage(TextConstants.ARCHER_POINTER);
                 flag = true;
-            } else
-                view.printConcatenatedString(view.getString(TextConstants.WRONG),
-                        TextConstants.LINE_BREAK, TextConstants.ARCHER_POINTER);
+            } else {
+                view.printConcatenatedString(view.getString(TextConstants.WRONG));
+                view.printMessage(TextConstants.ARCHER_POINTER);
+            }
             answer = scanner.nextLine();
         }
         if (flag)
